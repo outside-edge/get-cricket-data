@@ -6,4 +6,4 @@ Data released under [Creative Commons License](https://github.com/soodoku/ODI-Cr
 
 Scripts released under [MIT License](https://github.com/soodoku/ODI-Cricket-Match-Data/blob/master/LICENSE%20FOR%20SCRIPTS)
 
-An article based on the data: [Cricket: An Unfairly Random Game]{http://gbytes.gsood.com/2011/05/07/cricket-an-unfairly-random-game/}
+An article based on the data: [Cricket: An Unfairly Random Game](http://gbytes.gsood.com/2011/05/07/cricket-an-unfairly-random-game/)

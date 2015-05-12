@@ -1,9 +1,12 @@
-##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--++
-##                                             ##
-##        Cricket: Main
-##        Last Edited: 10.01.12               
-##        Gaurav Sood                          ##
-##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--++
+'''
+Get Cricket Data: Main Function
+The script relies on docric.py
+
+Last Edited: 10.01.12               
+
+@author: Gaurav Sood                          
+
+'''
 
 import urllib2
 import csv

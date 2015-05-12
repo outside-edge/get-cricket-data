@@ -19,6 +19,8 @@ The scripts produce four csvs: `winloss.csv`, `batting.csv`, `bowling.csv`, and 
 
 * [exception.csv](https://github.com/soodoku/get-cricket-data/blob/master/data/exception.csv) contains the following columns: match id (unique id for the match), odiurl (url for the odi), exception (what exception was raised)
 
+### Application
+
 An article based on the data: [Cricket: An Unfairly Random Game](http://gbytes.gsood.com/2011/05/07/cricket-an-unfairly-random-game/)
 
 ### License

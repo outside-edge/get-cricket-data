@@ -1,9 +1,12 @@
-##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--++
-##                                             ##
-##        Cricket: Functions
-##        Last Edited: 9.28.12               
-##        Gaurav Sood                          ##
-##--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--++
+'''
+
+Get Cricket Data: Functions
+Functions to scrape data from the webpages
+
+@date: 9.28.12  
+@author: Gaurav Sood                          
+
+'''
 
 import urllib2
 import re

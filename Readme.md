@@ -1,6 +1,15 @@
 ## Data and scripts for 5000+ ODI Cricket Matches
 
-The scripts produce four csvs: `winloss.csv`, `batting.csv`, `bowling.csv`, and `exception.csv`
+### Scripts
+
+The script scrapes data from espncricinfo. 
+There are two scripts: `cric.py` and `docric.py` 
+`cric.py` relies on `docric.py`
+To run, <code>python cric.py</code>
+
+### Data
+
+The scripts produce four csvs: `winloss.csv`, `batting.csv`, `bowling.csv`, and `exception.csv`:
 
 * [winloss.csv](https://raw.githubusercontent.com/soodoku/get-cricket-data/master/data/winloss.csv) contains the following columns: match id (unique id for the match), odiurl (url for the odi), team1 (first team), team1.total (total made by the team), team2 (second team), team2.total (second team's total), toss (team that won the toss), won (team that won), margin (margin of victory), bat.or.bowl (did the team that won the toss elect to bat or bowl), date, day.n.night (was it a day and night match), ground (ground name), ground.country (country in which the ground is located), groundurl (url for the ground)
 
@@ -11,13 +20,6 @@ The scripts produce four csvs: `winloss.csv`, `batting.csv`, `bowling.csv`, and 
 * [exception.csv](https://github.com/soodoku/get-cricket-data/blob/master/data/exception.csv) contains the following columns: match id (unique id for the match), odiurl (url for the odi), exception (what exception was raised)
 
 An article based on the data: [Cricket: An Unfairly Random Game](http://gbytes.gsood.com/2011/05/07/cricket-an-unfairly-random-game/)
-
-### Scripts
-
-The script scrapes data from espncricinfo. 
-There are two scripts: `cric.py` and `docric.py` 
-`cric.py` relies on `docric.py`
-To run, <code>python cric.py</code>
 
 ### License
 

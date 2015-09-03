@@ -4,12 +4,12 @@ Scripts for scraping espncricinfo and data on over 26,000 cricket matches.
 
 ### Scripts
 
-* `scraper.py` scrapes data from espncricinfo and downloads it to a local directory.
-* `parser.py` parses the data and creates a [csv with match level data](data/final_output.csv)
+* [scraper.py](scripts/scraper.py) scrapes data from espncricinfo and downloads it to a local directory.
+* [parser.py](scripts/parser.py) parses the data and creates a [csv with match level data](data/final_output.csv)
 
 ### Data
 
-The scripts produce `final_output.csv`
+The scripts produce [final_output.csv](data/final_output.csv)
 
 ### Application
 
@@ -17,5 +17,4 @@ An article based on the data: [Cricket: An Unfairly Random Game](http://gbytes.g
 
 ### License
 
-Released under the [MIT License](License.md)
-
+The license is only for the scripts and not for the data. The scripts are released under the [MIT License](License.md)

@@ -1,6 +1,6 @@
 ## Get Cricket Data
 
-Scripts for scraping espncricinfo and data on over 26,000 cricket matches.
+Scripts for scraping espncricinfo and data on over 43,000 cricket matches.
 
 ### Scripts
 

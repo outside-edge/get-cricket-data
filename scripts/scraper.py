@@ -42,7 +42,7 @@ for i in range(0, 6019):
         print str.split(new_host, "/")[4]
         html = urllib2.urlopen(odiurl).read()
         if html:
-            with open('espncricinfo-fc/%s' % str.split(new_host, "/")[4], "wb") as f:
+            with open('espncricinfo-fc/{0!s}'.format(str.split(new_host, "/")[4]), "wb") as f:
                 f.write(html)
 
 

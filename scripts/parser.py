@@ -124,19 +124,19 @@ def extractDataFrom(data):
 outputFile = open (FINAL_OUTPUT_FILE, "w")
 outputFile.write(HEADER + "\n")
 for folder in INPUT_FOLDER:
-    print "---PROCESSING FOLDER %s---"% (folder,)
+    print "---PROCESSING FOLDER {0!s}---".format(folder)
     counter = 0
     for url in os.listdir(folder):
         data = open(folder + "/" + url).read()
         team1, team2, win_toss, bat_or_bowl, outcome, win_game, date, day_n_night, ground, rain, duckworth_lewis, match_id = extractDataFrom(data)
         url_new = folder + "/" + url
         type_of_match = folder.split("-")[-1].upper()
-        rowStr = '"%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s"\n'% (url_new,team1, team2, win_toss, bat_or_bowl, outcome, win_game, date, day_n_night, ground, rain, duckworth_lewis, match_id, type_of_match)
+        rowStr = '"{0!s}","{1!s}","{2!s}","{3!s}","{4!s}","{5!s}","{6!s}","{7!s}","{8!s}","{9!s}","{10!s}","{11!s}","{12!s}","{13!s}"\n'.format(url_new, team1, team2, win_toss, bat_or_bowl, outcome, win_game, date, day_n_night, ground, rain, duckworth_lewis, match_id, type_of_match)
         outputFile.write(rowStr)
         counter = counter + 1
         if counter%1000==0:
-            print "   + Processing file %d000th" % (counter/1000,)
+            print "   + Processing file {0:d}000th".format(counter/1000)
 outputFile.close()
 
 ##################################FINISHED#########################################
-print "DONE. Wrote output to %s" %(FINAL_OUTPUT_FILE,)
+print "DONE. Wrote output to {0!s}".format(FINAL_OUTPUT_FILE)

@@ -1,6 +1,6 @@
 ## Get Cricket Data
 
-Scripts for scraping espncricinfo and data on over 43,000 cricket matches.
+Scripts for scraping [espncricinfo.com](http://www.espncricinfo.com/) and data on over 43,000 cricket matches.
 
 ### Scripts
 
@@ -12,7 +12,7 @@ Scripts for scraping espncricinfo and data on over 43,000 cricket matches.
 The scripts produce [final_output.csv](data/final_output.csv)
 
 ### Application
-* Article based on current scripts/data: Fairly Random
+* Article based on current scripts/data: [Fairly Random](https://github.com/dwillis/toss-up)
 * An article based on previous version of the data: [Cricket: An Unfairly Random Game?](http://gbytes.gsood.com/2011/05/07/cricket-an-unfairly-random-game/)
 
 ### License

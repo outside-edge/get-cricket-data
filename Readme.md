@@ -17,4 +17,4 @@ The scripts produce [final_output.csv](data/final_output.csv)
 
 ### License
 
-The license is only for the scripts and not for the data. The scripts are released under the [MIT License](License.md)
+The license is only for the scripts and not for the data. The scripts are released under the [MIT License](https://opensource.org/licenses/MIT)
